@@ -33,9 +33,8 @@ body {
     --destructive: 4 84% 50%;
     --destructive-foreground: 0 0% 100%;
     --ring: 0 0% 100%;
-    --radius:0.5rem;
+    --radius: 0.5rem;
   }
-  
 }
 
 @layer base {

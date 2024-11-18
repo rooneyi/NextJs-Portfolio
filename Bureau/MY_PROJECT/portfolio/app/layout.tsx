@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Anek_Telugu } from "next/font/google"
+import { Anek_Telugu } from "next/font/google";
 import { cn } from "@/lib/utils";
 
 const geistSans = localFont({
@@ -15,7 +15,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-const anekTelugu = Anek_Telugu({ subsets: ["telugu"],variable: "--font-caption" });
+const anekTelugu = Anek_Telugu({
+  subsets:['latin'],
+  variable: "--font-caption",
+  weight: ["100"],
+});
 
 export const metadata: Metadata = {
   title: "Portfolio rooney",
@@ -30,7 +34,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <body
-        className={cn(geistSans.variable,geistMono.variable,anekTelugu,"h-full bg-background text-foreground")}
+        className={cn(
+          geistSans.variable,
+          geistMono.variable,
+          anekTelugu.variable,
+          "h-full bg-background text-foreground"
+        )}
       >
         {children}
       </body>
