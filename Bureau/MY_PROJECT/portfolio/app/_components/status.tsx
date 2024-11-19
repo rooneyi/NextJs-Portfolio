@@ -2,6 +2,7 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./sections";
 import {
+
   Code,
   LucideIcon,
   NotebookTabs,
@@ -66,25 +67,25 @@ export const Status = () => {
 
 const SIDES_PROJECTS: sidePojects = [
   {
-    logo: "Code",
+    logo: Code,
     title: "Bibblios",
     description: "A library management app for cataloging and organizing books.",
     url: "https://github.com/rooneyi/Biblios"
   },
   {
-    logo: "StickyNote",
+    logo: StickyNote,
     title: "Quiz Micode",
     description: "Interactive online quiz tool for learning and assessment.",
     url: "https://github.com/rooneyi/Quiz Micode"
   },
   {
-    logo: "Weight",
+    logo: Weight,
     title: "Youtube Generator Image IA",
     description: "AI-powered YouTube thumbnail generator for attractive visuals.",
     url: "https://github.com/rooneyi/Image-generator-OpenAi"
   },
   {
-    logo: "NotebookTabs",
+    logo: NotebookTabs,
     title: "Next-Dashboard",
     description: "Modern, reactive dashboard for real-time data management and analytics.",
     url: "https://github.com/rooneyi/Next-Dashboard"
