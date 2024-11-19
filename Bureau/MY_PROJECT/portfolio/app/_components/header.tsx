@@ -19,12 +19,12 @@ export const Header = () => {
             <Github size={12} className="text-foreground" />
           </Link>
           <Link
-          href = "https://github.com/rooneyi" 
+          href = "https://www.linkedin.com/in/rooney-kalumba-45541428a/" 
           className={cn(buttonVariants({variant :"outline"}),"size-6 p-0")}>
             <LinkedinIcon size={12} className="text-foreground" />
           </Link>
           <Link
-          href = "https://github.com/rooneyi" 
+          href = "https://x.com/KalumbaRoo91782" 
           className={cn(buttonVariants({variant :"outline"}),"size-6 p-0")}>
             <Twitter size={12} className="text-foreground" />
           </Link>
