@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <header className="sticky top-0 py-4">
       <Section className="flex items-baseline">
-        <h1 className="text-lg font-bold">Rooney.com</h1>
+        <h1 className="text-lg font-bold">rooney.com</h1>
         <div className="flex-1"></div>
         <ul className="flex items-center gap-2">
           <Link
