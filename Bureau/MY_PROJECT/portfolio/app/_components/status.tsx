@@ -21,7 +21,7 @@ export const Status = () => {
           {SIDES_PROJECTS.map((project, index) => (
             <SideFunProject
               key={index}
-              Logo={project.logo}
+              Logo={project.Logo}
               title={project.title}
               description={project.description}
               url={project.url}
@@ -65,40 +65,40 @@ export const Status = () => {
   );
 };
 
-const SIDES_PROJECTS: sidePojects = [
+const SIDES_PROJECTS: sidePojects[] = [
   {
-    logo: Code,
+    Logo: Code,
     title: "Bibblios",
     description: "A library management app for cataloging and organizing books.",
     url: "https://github.com/rooneyi/Biblios"
   },
   {
-    logo: StickyNote,
+    Logo: StickyNote,
     title: "Quiz Micode",
     description: "Interactive online quiz tool for learning and assessment.",
     url: "https://github.com/rooneyi/Quiz Micode"
   },
   {
-    logo: Weight,
+    Logo: Weight,
     title: "Youtube Generator Image IA",
     description: "AI-powered YouTube thumbnail generator for attractive visuals.",
     url: "https://github.com/rooneyi/Image-generator-OpenAi"
   },
   {
-    logo: NotebookTabs,
+    Logo: NotebookTabs,
     title: "Next-Dashboard",
     description: "Modern, reactive dashboard for real-time data management and analytics.",
     url: "https://github.com/rooneyi/Next-Dashboard"
   },
   {
-    logo: "NotebookTabs",
+    Logo: NotebookTabs,
     title: "portfolio",
     description: "Personal online portfolio showcasing projects and skills.",
     url: "https://rooney-tan.vercel.app"
   },
   
   {
-    logo: "NotebookTabs",
+    Logo: NotebookTabs,
     title: "FlexPay",
     description: "Flexible payment solution for secure and easy transactions.",
     url: "https://github.com/devscast/flexpay"
