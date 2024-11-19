@@ -8,10 +8,10 @@ export const ContactCard = (props: {
   mediumImage: string;
   name: string;
   description: string;
-  url?:string;
+  url:string;
 }) => {
   return (
-    <Link href={props.name}>
+    <Link href={props.url}>
     <Card className=" flex bg-accent/10  hover:bg-accent/30 transition-colors group items-center gap-4 rounded-lg p-2">
       <div className="relative">
         <img
