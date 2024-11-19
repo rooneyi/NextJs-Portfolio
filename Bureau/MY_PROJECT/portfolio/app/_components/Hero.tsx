@@ -1,21 +1,11 @@
-import { ComponentPropsWithoutRef } from "react";
+/* eslint-disable @next/next/no-img-element */
 import { Section } from "./sections";
-import { cn } from "@/lib/utils";
 import { SymfonyIcons } from "./icons/SymfonyIcon";
 import { ReactIcon } from "./icons/ReactIcon";
 import { DrcIcon } from "./icons/DrcIcon";
+import { Code } from "./Code";
 
-const Code = ({ className, ...props }: ComponentPropsWithoutRef<"span">) => {
-  return (
-    <span
-      className={cn(
-        "bg-accent/30 font-mono text-sm border-accent border rounded-sm p-0",
-        className
-      )}
-      {...props}
-    />
-  );
-};
+
 export const Hero = () => {
   return (
     <Section className="flex max-md:flex-col items-start  gap-4 ">

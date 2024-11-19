@@ -3,6 +3,7 @@ import { Hero } from "./_components/Hero";
 import { Spacing } from "./_components/Spacing";
 import { Status } from "./_components/status";
 import { Footer } from "./_components/Footer";
+import { Skills } from "./_components/Skills";
 export default function Home() {
   return (
     <main>
@@ -11,6 +12,8 @@ export default function Home() {
       <Hero />
       <Spacing size="md" />
       <Status />
+      <Spacing size="md" />
+      <Skills />
       <Spacing size="md" />
       <Footer />
     </main>
