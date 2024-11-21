@@ -26,7 +26,7 @@ export const Hero = () => {
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
         <img
-          src="https://rooney-tan.vercel.app/images/me/rooney.jpeg"
+          src="https://avatars.githubusercontent.com/u/139772169?v=4"
           className="w-56 h-56 rounded-full max-w-sm max-md:w-56 object-cover"
           alt="photo de rooney"
         />
